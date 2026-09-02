@@ -1,6 +1,6 @@
 # Hi, I'm Dennis 👋
 
-**Senior Software Engineer · Backend Developer · Co-Founder of GegLex**
+**Senior Software Engineer · Backend & Data Systems · Co-Founder of GegLex**
 
 Software engineer with **12+ years of professional experience** building backend systems, business applications and data-driven software.
 
@@ -46,18 +46,12 @@ I'm also **Co-Founder & Backend Engineer at GegLex**, where I work on backend ar
 
 A production-oriented **ASP.NET Core REST API** demonstrating modern backend architecture and engineering practices.
 
-**Highlights**
+`ASP.NET Core` · `Clean Architecture` · `PostgreSQL` · `Entity Framework Core` · `Docker` · `xUnit` · `GitHub Actions`
 
-`ASP.NET Core` · `Clean Architecture` · `REST` · `PostgreSQL` · `Entity Framework Core` · `OpenAPI` · `Docker` · `xUnit` · `GitHub Actions`
-
-- Layered backend architecture
-- Product CRUD with search and pagination
-- Domain validation and standardized Problem Details
+- Layered backend architecture with clear separation of concerns
+- REST API with validation, pagination and standardized error handling
 - PostgreSQL persistence with EF Core migrations
-- Unit and integration tests
-- Health and readiness checks
-- Docker and Docker Compose
-- Automated CI and dependency updates
+- Automated unit and integration tests with CI and Docker validation
 
 ➡️ **[View ProductionReadyApi](https://github.com/dennismorina/ProductionReadyApi)**
 
@@ -65,22 +59,14 @@ A production-oriented **ASP.NET Core REST API** demonstrating modern backend arc
 
 ### DataBridge
 
-A production-oriented **CSV/XLSX data import pipeline** focused on efficient processing of external business data.
+A production-oriented **CSV/XLSX data import pipeline** focused on efficient and reliable processing of external business data.
 
-**Highlights**
+`.NET` · `CSV` · `Excel` · `PostgreSQL` · `Npgsql` · `Binary COPY` · `SQL UPSERT` · `Docker`
 
-`.NET` · `CSV` · `Excel` · `PostgreSQL` · `Npgsql` · `Binary COPY` · `SQL UPSERT` · `Docker` · `GitHub Actions`
-
-- CSV and Excel ingestion
-- Validation and normalization
-- Duplicate detection
-- Batch processing
-- PostgreSQL binary COPY
-- Temporary staging tables
-- Set-based SQL UPSERT
-- SHA-256 based idempotency
-- Reject reports
-- Real PostgreSQL integration testing in CI
+- CSV and Excel ingestion with validation and normalization
+- PostgreSQL Binary COPY and set-based UPSERT processing
+- SHA-256 based idempotency and reject reporting
+- Real PostgreSQL integration testing inside GitHub Actions CI
 
 ➡️ **[View DataBridge](https://github.com/dennismorina/DataBridge)**
 
@@ -90,20 +76,12 @@ A production-oriented **CSV/XLSX data import pipeline** focused on efficient pro
 
 A reproducible **SQL Server performance lab** demonstrating common query performance problems and targeted optimizations.
 
-**Highlights**
-
 `SQL Server 2025` · `C#` · `.NET` · `SQL` · `Indexing` · `Query Optimization` · `Docker` · `Benchmarking`
 
-- SARGable vs. non-SARGable predicates
-- Implicit `varchar` / `nvarchar` conversions
-- Functions on indexed columns
-- Covering indexes
-- Offset vs. keyset pagination
-- SARGable join predicates
-- Logical-read measurements using `SET STATISTICS IO`
-- Deterministic benchmark data
-- Automated benchmark execution
-- SQL Server container smoke testing in CI
+- SARGable vs. non-SARGable query patterns
+- Implicit conversions and functions on indexed columns
+- Covering indexes, pagination and join optimization
+- Logical-read benchmarking with automated SQL Server smoke tests in CI
 
 ➡️ **[View SqlPerformanceLab](https://github.com/dennismorina/SqlPerformanceLab)**
 
@@ -111,7 +89,7 @@ A reproducible **SQL Server performance lab** demonstrating common query perform
 
 ## 🌍 GegLex
 
-I'm **Co-Founder and Backend Engineer of GegLex**, a platform focused on the Gheg Albanian language.
+I'm **Co-Founder and Backend Engineer of [GegLex](https://geglex.com)**, a platform focused on the Gheg Albanian language.
 
 My responsibilities include:
 
@@ -124,16 +102,11 @@ My responsibilities include:
 - Deployment and CI/CD
 - Backend feature development
 
+➡️ **[Visit GegLex](https://geglex.com)**
+
 ---
 
-## 🔨 Portfolio Focus
+## 🤝 Connect
 
-My public projects are designed to demonstrate different areas of backend engineering rather than repeating the same CRUD application pattern.
-
-**ProductionReadyApi** focuses on API architecture and application design.
-
-**DataBridge** focuses on data integration, bulk processing and reliable import workflows.
-
-**SqlPerformanceLab** focuses on database performance, indexing and SQL optimization.
-
-Future projects will continue to explore areas such as business workflows, asynchronous processing and distributed backend systems.
+- **LinkedIn:** [Dennis Morina](https://www.linkedin.com/in/dennis-morina-449951275)
+- **GegLex:** [geglex.com](https://geglex.com)
