@@ -87,6 +87,21 @@ A reproducible **SQL Server performance lab** demonstrating common query perform
 
 ---
 
+### OrderFlow
+
+A production-oriented **order workflow and messaging system** demonstrating explicit business state transitions and reliable asynchronous processing.
+
+`.NET` · `ASP.NET Core` · `SQL Server 2025` · `Entity Framework Core` · `RabbitMQ` · `Docker` · `xUnit` · `GitHub Actions`
+
+- Explicit workflow: Created → Validated → Approved → Processing → Completed
+- Domain-enforced state transitions with audit history and optimistic concurrency
+- Transactional Outbox with RabbitMQ publishing and Inbox-based consumer idempotency
+- End-to-end CI smoke test with SQL Server, RabbitMQ, API and fulfillment worker
+
+➡️ **[View OrderFlow](https://github.com/dennismorina/OrderFlow)**
+
+---
+
 ## 🌍 GegLex
 
 I'm **Co-Founder and Backend Engineer of [GegLex](https://geglex.com)**, a platform focused on the Gheg Albanian language.
