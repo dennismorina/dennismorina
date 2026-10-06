@@ -102,6 +102,22 @@ A production-oriented **order workflow and messaging system** demonstrating expl
 
 ---
 
+### AuthService
+
+A production-oriented **authentication and authorization service** demonstrating secure token handling, RBAC and abuse protection.
+
+`.NET` · `ASP.NET Core` · `PostgreSQL` · `Entity Framework Core` · `JWT` · `Docker` · `xUnit` · `GitHub Actions`
+
+- Short-lived JWT access tokens with opaque refresh tokens
+- Refresh-token rotation with reuse detection and token-family revocation
+- RBAC, permission-based authorization and direct user permissions
+- Rate limiting, account lockout and security audit events
+- Real PostgreSQL migration and security smoke testing in CI
+
+➡️ **[View AuthService](https://github.com/dennismorina/AuthService)**
+
+---
+
 ## 🌍 GegLex
 
 I'm **Co-Founder and Backend Engineer of [GegLex](https://geglex.com)**, a platform focused on the Gheg Albanian language.
